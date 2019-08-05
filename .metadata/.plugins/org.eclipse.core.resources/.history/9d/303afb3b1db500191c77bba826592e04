@@ -1,0 +1,25 @@
+package org.pradeep;
+
+public class FunctionalProgrammingRunner 
+{
+	public static void main(String[] args) {
+		List<String> list = List.of("Apple", "Bat", "Cat", "Dog");
+		//printBasicWithFiltering(list);
+		printFPWithFiltering(list);
+	}
+
+	public static void printBasicWithFiltering(List<String> list) {
+		for(String str:list) {
+			if(str.endsWith("at")) {
+				System.out.println(str);
+			}
+		}
+	}
+
+	public static void printFPWithFiltering(List<String> list) {
+		list.stream()
+			.filter(elem -> elem.endsWith("at"))
+			.forEach(element -> System.out.println(element));
+
+	}
+}

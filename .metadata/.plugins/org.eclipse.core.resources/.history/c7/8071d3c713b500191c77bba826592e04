@@ -1,0 +1,18 @@
+package org.pradeep;
+
+import java.util.HashMap;
+import java.util.Map;
+
+public class noOfChars 
+{
+	public static void main(String[] args) 
+	{
+		String s = "Hello Pradeep";
+		String s1=s.replace(" ", "");
+		findDuplicateChars(s1);
+	}
+	public static void findDuplicateChars(String s) 
+	{
+		Map<Character,Integer> m = new HashMap<>();
+	}
+}

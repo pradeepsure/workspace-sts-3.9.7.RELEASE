@@ -1,0 +1,19 @@
+package org.pradeep;
+
+public class Singleton {
+
+	private static final Singleton s = null;
+	
+	private Singleton() {
+		
+	}
+	
+	public static Singleton getData() {
+		return new Singleton();
+	}
+	
+	public static void main(String[] args) {
+
+	}
+
+}

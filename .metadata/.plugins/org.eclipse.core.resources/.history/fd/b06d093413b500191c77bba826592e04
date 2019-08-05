@@ -1,0 +1,17 @@
+package org.pradeep;
+
+import javax.management.StringValueExp;
+
+public class noOfChars 
+{
+	public static void main(String[] args) 
+	{
+		String s = "Hello Pradeep";
+		String s1=s.replace(" ", "");
+		findDuplicateChars(s1);
+	}
+	public static void findDuplicateChars(String s) 
+	{
+		
+	}
+}

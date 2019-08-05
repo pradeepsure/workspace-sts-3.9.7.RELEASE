@@ -1,0 +1,9 @@
+package org.pradeep;
+
+public class noOfChars 
+{
+	public static void main(String[] args) 
+	{
+		
+	}
+}
