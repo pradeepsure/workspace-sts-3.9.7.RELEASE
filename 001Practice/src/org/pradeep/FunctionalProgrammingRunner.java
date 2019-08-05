@@ -12,7 +12,7 @@ public class FunctionalProgrammingRunner
 		list.add("Apple");
 		list.add("Cat");
 		list.add("Bat");
-		list.add("Dog");
+		list.add("Rat");
 		// printBasicWithFiltering(list);
 		printFPWithFiltering(list);
 	}
