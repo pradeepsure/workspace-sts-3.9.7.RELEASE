@@ -12,7 +12,6 @@ INDEX VERSION 1.131+C:\Users\746983\Documents\workspace-sts-3.9.7.RELEASE\.metad
 3111479007.index
 855610745.index
 577212490.index
-3637462310.index
 3831401531.index
 3337572652.index
 3037605303.index
